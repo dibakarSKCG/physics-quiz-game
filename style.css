@@ -37,6 +37,16 @@ body {
     }
 }
 
+/* Dr. Photon Image */
+.dr-photon {
+    width: 120px;
+    margin: 0 auto 20px;
+    display: block;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.2s; /* Slight delay to fade in after the container */
+}
+
 h1 {
     color: #00796b;
     font-size: 24px;
