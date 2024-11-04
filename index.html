@@ -8,9 +8,16 @@
 </head>
 <body>
     <div class="container">
+        <!-- Dr. Photon Image -->
+        <img src="dr_photon.png" alt="Dr. Photon" class="dr-photon">
+
+        <!-- Game Title -->
         <h1>Physics Quiz Game</h1>
+        
+        <!-- Start Game Button -->
         <button class="start-btn" onclick="startGame()">Start Game</button>
         
+        <!-- Question Container -->
         <div id="question-container" class="question-container" style="display:none;">
             <p id="question-text" class="question-text"></p>
             <div id="answer-buttons" class="btn-container">
@@ -21,6 +28,7 @@
             </div>
         </div>
         
+        <!-- Score Display -->
         <p id="score-display" class="score-display" style="display:none;">Score: 0</p>
     </div>
     <script src="script.js"></script>
